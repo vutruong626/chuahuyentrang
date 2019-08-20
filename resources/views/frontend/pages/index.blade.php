@@ -1,11 +1,13 @@
 @extends('frontend.master')
 @section('content')
-<!-- slider cut -->
-@include('frontend.main-page.header')
-<!-- slider cut -->
+
 <!--main js file start-->
 <div class="ne_slider_bottom_img_main_wrapper">
     <div class="container">
+        <!-- slider cut -->
+        @include('frontend.main-page.header')
+        <!-- slider cut -->
+    
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div class="ne_wn_img_main_wrapper yellow ne_wn_img_main_wrapper_index_2_banner_slider1">

@@ -19,54 +19,6 @@
                 <p id="date"></p>
             </div>
         </div>
-        <div class="ne_right_sec_main_wrapper">
-            <ul>
-                <li class="hidden-xs"><a href="login.html">login &nbsp;<i class="fa fa-user"></i></a>
-                </li>
-                <li><a href="#" class="second-nav-toggler mee">menu &nbsp;<i class="flaticon-text"></i></a>
-                </li>
-            </ul>
-            <div id="mobile-nav" data-prevent-default="true" data-mouse-events="true">
-                <div class="mobail_nav_overlay"></div>
-                <div class="mobile-nav-box">
-                    <div class="mobile-logo">
-                        <a href="index_II.html" class="mobile-main-logo">
-                            <img src="images/header/logo2.png" alt="logo" class="img-responsiv">
-                        </a> <a href="#" class="manu-close"><i class="fa fa-times"></i></a>
-                    </div>
-                    <ul class="mobile-list-nav">
-                        <li><a href="#">WORLD NEWS</a>
-                        </li>
-                        <li><a href="#">SPORT NEWS</a>
-                        </li>
-                        <li><a href="#">MUSIC NEWS</a>
-                        </li>
-                        <li><a href="#">BUSINESS NEWS</a>
-                        </li>
-                        <li><a href="#">TECHNOLOGICAL</a>
-                        </li>
-                        <li><a href="#">TRAVEL NEWS</a>
-                        </li>
-                        <li><a href="#">MECIAL NEWS</a>
-                        </li>
-                        <li><a href="#">WORLD NEWS</a>
-                        </li>
-                        <li><a href="#">SPORT NEWS</a>
-                        </li>
-                        <li><a href="#">MUSIC NEWS</a>
-                        </li>
-                        <li><a href="#">BUSINESS NEWS</a>
-                        </li>
-                        <li><a href="#">TECHNOLOGICAL</a>
-                        </li>
-                        <li><a href="#">TRAVEL NEWS</a>
-                        </li>
-                        <li><a href="#">MECIAL NEWS</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
     </div>
 </div>
 <!-- prs navigation Start -->
@@ -273,7 +225,7 @@
                             </li>
                             <li class="parent"><a href="{{route('news')}}" class="effect_nav"> Tin tức</a>
                                 <ul class="lg-submenu">
-                                    <li class="parent"><a href="#">Blog</a>
+                                    <li class="parent"><a href="#">Phật sự </a>
                                         <ul class="lg-submenu">
                                             <li><a href="blog.html">Blog-Category</a>
                                             </li>
@@ -281,7 +233,7 @@
                                             </li>
                                         </ul>
                                     </li>
-                                    <li class="parent"><a href="#">Gallery</a>
+                                    <li class="parent"><a href="#">Phật giáo & Đời sống </a>
                                         <ul class="lg-submenu">
                                             <li><a href="gallery.html">Gallery</a>
                                             </li>
@@ -289,20 +241,15 @@
                                             </li>
                                         </ul>
                                     </li>
-                                    <li><a href="404.html">404_error</a>
+                                    <li><a href="404.html">Phật giáo & Xã hội </a>
                                     </li>
-                                    <li><a href="life_style.html">Life-Style</a>
+                                    <li><a href="life_style.html">Phật giáo & Tuổi trẻ </a>
                                     </li>
-                                    <li><a href="sport.html">Sport</a>
+                                    <li><a href="sport.html">Văn học phật giáo</a>
                                     </li>
-                                    <li><a href="technology.html">Technology</a>
+                                    <li><a href="technology.html">Pháp môn niệm phật </a>
                                     </li>
-                                    <li><a href="author.html">Author</a>
-                                    </li>
-                                    <li><a href="login.html">Login</a>
-                                    </li>
-                                    <li><a href="register.html">Register</a>
-                                    </li>
+                                    
                                 </ul>
                             </li>
                             <li class="parent"><a href="{{route('contact')}}" class="effect_nav">Liên hệ</a>

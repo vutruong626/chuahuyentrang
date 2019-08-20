@@ -202,17 +202,17 @@
 }
 
 .w-59 {
-    width: 59%!important;
+    width: 100%!important;
 }
 
 .carousel-control-next {
     right: 0;
-    padding-top: 230px;
+    padding-top: 0px;
 }
 
 .carousel-control-prev {
     left: 0;
-    padding-top: 230px;
+    padding-top: 0px;
 }
 
 @media (max-width: 768px) {
@@ -244,4 +244,11 @@ ul {
 
 .map {
     height: 500px;
+}
+.container-fluid{
+    width: 100%;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-right: auto;
+    margin-left: auto;
 }

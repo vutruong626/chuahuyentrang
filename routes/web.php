@@ -27,3 +27,8 @@ Route::prefix('/')->group(function () {
     // NEWS
     Route::get('/tin-tuc.html','Frontend\\NewsController@News')->name('news');
 });
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});

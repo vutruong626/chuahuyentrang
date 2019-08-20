@@ -31,7 +31,7 @@
         
         body,
         html {
-            font-family: 'Open Sans', sans-serif;
+            font-family: 'Roboto', sans-serif;
             font-size: 16px;
             line-height: 23px;
             color: #707070;
@@ -67,7 +67,7 @@
         .h4,
         .h5,
         .h6 {
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Roboto', sans-serif;
             line-height: 1.1;
             font-weight: 400;
             color: #222222;
@@ -138,11 +138,11 @@
         
         .ne_left_sec_main_wrapper {
             float: left;
-            width: 70%;
+            width: 100%;
         }
         
         .ne_left_sec_main_wrapper ul {
-            float: left;
+            float: right;
         }
         
         .ne_left_sec_main_wrapper li {
@@ -153,7 +153,7 @@
             float: left;
             padding: 15px;
             font-size: 14px;
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Roboto', sans-serif;
             text-transform: uppercase;
             padding-top: 20px;
             color: #ffffff;
@@ -191,7 +191,7 @@
             padding: 15px;
             font-size: 14px;
             padding-top: 21px;
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Roboto', sans-serif;
             text-transform: uppercase;
             color: #ffffff;
             -webkit-transition: all 0.5s;
@@ -212,7 +212,7 @@
         
         #date {
             color: #ffffff;
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Roboto', sans-serif;
             font-size: 14px;
             font-weight: 500;
             text-transform: uppercase;
@@ -241,7 +241,7 @@
             float: left;
             padding-top: 20px;
             padding-bottom: 20px;
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Roboto', sans-serif;
             text-transform: uppercase;
             font-weight: 500;
             border-left: 1px solid rgba(255, 255, 255, 0.36);
@@ -1401,7 +1401,7 @@
         .ne_ts_inner_content h3 {
             float: right;
             font-size: 14px;
-            font-family: 'Open Sans', sans-serif;
+            font-family: 'Roboto', sans-serif;
             color: #707070;
             padding-right: 115px;
             padding-top: 5px;
@@ -1676,7 +1676,7 @@
             animation-delay: 1.5s;
             background: #2196f3;
             display: inline-block;
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Roboto', sans-serif;
             text-transform: uppercase;
             padding: 10px 20px;
             position: relative;
@@ -1744,7 +1744,7 @@
         
         .lr_banner_content_inner_wrapper li a {
             font-size: 14px;
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Roboto', sans-serif;
             color: rgba(255, 255, 255, 0.7411764705882353);
             font-weight: 600;
         }
@@ -1779,7 +1779,7 @@
         .ne_slider_bottom_img_main_wrapper {
             float: left;
             width: 100%;
-            margin-top: 30px;
+            /* margin-top: 30px; */
         }
         /*--------resent news Start------------*/
         
@@ -1869,7 +1869,7 @@
             padding: 15px 10px;
             margin-top: -39px;
             position: relative;
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Roboto', sans-serif;
             font-size: 14px;
             text-transform: uppercase;
             color: #000000;
@@ -2029,7 +2029,7 @@
         
         .ne_re_left_img_cont_main_wrapper .ne_re_social1_wrapper li a {
             font-size: 14px;
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Roboto', sans-serif;
             color: #707070;
         }
         
@@ -2066,7 +2066,7 @@
         
         .ne_re_left_img_cont_main_wrapper .ne_re_social2_wrapper li a {
             font-size: 14px;
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Roboto', sans-serif;
             color: #707070;
         }
         
@@ -2095,7 +2095,7 @@
             animation-delay: 2.0s;
             background: #33cc99;
             display: inline-block;
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Roboto', sans-serif;
             text-transform: uppercase;
             padding: 10px 20px;
             position: absolute;
@@ -2454,7 +2454,7 @@
         
         .ne_gt_left_img_cont_main_wrapper .ne_re_social1_wrapper li a {
             font-size: 14px;
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Roboto', sans-serif;
             color: #707070;
         }
         
@@ -2490,7 +2490,7 @@
         
         .ne_gt_left_img_cont_main_wrapper .ne_re_social2_wrapper li a {
             font-size: 14px;
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Roboto', sans-serif;
             color: #707070;
         }
         
@@ -2519,7 +2519,7 @@
             animation-delay: 2.0s;
             background: #33cc99;
             display: inline-block;
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Roboto', sans-serif;
             text-transform: uppercase;
             padding: 10px 20px;
             position: absolute;
@@ -2764,7 +2764,7 @@
             animation-delay: 2.0s;
             background: #33cc99;
             display: inline-block;
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Roboto', sans-serif;
             text-transform: uppercase;
             padding: 10px 20px;
             position: absolute;
@@ -2834,7 +2834,7 @@
         
         .ne_wn_social_inner_wrapper .ne_wn_social1_wrapper li a {
             font-size: 14px;
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Roboto', sans-serif;
             color: rgba(255, 255, 255, 0.84);
             -webkit-transition: all 0.5s;
             -o-transition: all 0.5s;
@@ -4821,7 +4821,7 @@
         
         .ne_cont_testi_content_wrapper h4 {
             font-size: 14px;
-            font-family: 'Open Sans', sans-serif;
+            font-family: 'Roboto', sans-serif;
             color: #707070;
             padding-top: 30px;
         }
@@ -4829,7 +4829,7 @@
         .ne_cont_testi_content_wrapper h4 span {
             font-size: 16px;
             color: #2196f3;
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Roboto', sans-serif;
             font-weight: 600;
         }
         
@@ -5309,7 +5309,7 @@
         .ne_boto_testi_img_cont h4 {
             font-size: 16px;
             color: #707070;
-            font-family: 'Open Sans', sans-serif;
+            font-family: 'Roboto', sans-serif;
             padding-top: 5px;
             line-height: 26px;
         }
@@ -5387,7 +5387,7 @@
         
         .ne_commnet_list_img_cont_section h3 {
             font-size: 18px;
-            font-family: 'Open Sans', sans-serif;
+            font-family: 'Roboto', sans-serif;
             color: #000000;
         }
         
