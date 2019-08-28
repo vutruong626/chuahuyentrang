@@ -22,7 +22,8 @@ Route::prefix('/')->group(function () {
     // Information
     Route::get('/tieu-su-su-to','Frontend\\InformationController@Story')->name('story');
     Route::get('/chua-huyen-trang','Frontend\\InformationController@ChuaHuyenTrang')->name('chuahuyentrang');
-    Route::get('/thong-bao','Frontend\\InformationController@Notification')->name('notification');
+    Route::get('/thong-bao.html','Frontend\\InformationController@Notification')->name('notification');
+    Route::get('/thong-bao/{slug}','Frontend\\InformationController@DetailNotification')->name('detail_notification');
 
     // NEWS
     Route::get('/tin-tuc.html','Frontend\\NewsController@News')->name('news');

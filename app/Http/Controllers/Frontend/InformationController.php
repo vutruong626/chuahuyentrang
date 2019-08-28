@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Frontend;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-
+use App\Models\Notification;
 class InformationController extends Controller
 {
     /**
@@ -35,7 +35,8 @@ class InformationController extends Controller
      */
     public function Notification(Request $request)
     {
-        return view('frontend.information.notification');
+        $notification = Notification::orderBy('id','DESC')->get();
+        return view('frontend.information.notification.notification',compact('notification'));
     }
 
     /**
@@ -44,9 +45,10 @@ class InformationController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function DetailNotification($slug)
     {
-        //
+        $notification = Notification::where('slug',$slug)->first();
+        return view('frontend.information.notification.detail-notification',compact('notification'));
     }
 
     /**
